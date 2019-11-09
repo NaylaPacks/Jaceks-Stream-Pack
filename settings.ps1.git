@@ -11,7 +11,7 @@ $CURSEFORGE_USER = "CrankySupertoon"
 $CURSEFORGE_TOKEN = "snip"
 
 # ProjectID can be found on the modpack's Curseforge Projects page, under "About This Project"
-$CURSEFORGE_PROJECT_ID = 251553
+$CURSEFORGE_PROJECT_ID = 350896
 
 # =====================================================================//
 #  MODPACK & CLIENT FILE SETTINGS
@@ -20,7 +20,7 @@ $CURSEFORGE_PROJECT_ID = 251553
 # Default: "1.0.0"
 $MODPACK_VERSION = "1.0.0"
 
-$FORGE_VERSION=28.1.42
+$FORGE_VERSION=14.23.5.2847
 
 $CLIENT_FILENAME = "Jacek's Stream Pack"
 
