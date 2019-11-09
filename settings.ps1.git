@@ -8,7 +8,7 @@
 $CURSEFORGE_USER = "CrankySupertoon"
 
 # For details see: https://authors.curseforge.com/account/api-tokens
-$CURSEFORGE_TOKEN = "snip"
+$CURSEFORGE_TOKEN = "why-u-trying-to-token-steal"
 
 # ProjectID can be found on the modpack's Curseforge Projects page, under "About This Project"
 $CURSEFORGE_PROJECT_ID = 350896
@@ -18,11 +18,11 @@ $CURSEFORGE_PROJECT_ID = 350896
 # =====================================================================//
 
 # Default: "1.0.0"
-$MODPACK_VERSION = "1.0.0"
+$MODPACK_VERSION = "1.0.1"
 
 $FORGE_VERSION=14.23.5.2847
 
-$CLIENT_FILENAME = "Jacek's Stream Pack"
+$CLIENT_FILENAME = "Jaceks Stream Pack"
 
 # Default: "$CLIENT_FILENAME $MODPACK_VERSION"
 $CLIENT_FILE_DISPLAY_NAME = "$CLIENT_FILENAME - $MODPACK_VERSION"
@@ -47,16 +47,20 @@ $CLIENT_RELEASE_TYPE = "release"
 
 # Default: "$CLIENT_FILENAME Server $MODPACK_VERSION"
 
-$SERVER_ID = JacekSP
-
-$SERVER_FILENAME = "[Server] $SERVER_ID - $MODPACK_VERSION"
+$SERVER_FILENAME = "JacekSP-$MODPACK_VERSION"
 
 # Default: $SERVER_FILENAME
-$SERVER_FILE_DISPLAY_NAME = $SERVER_FILENAME
+$SERVER_FILE_DISPLAY_NAME = "[Server] JacekSP - $MODPACK_VERSION"
 
 # A continuous line of the folders and files (with extensions) to zip into Server Files.
 # Default: @("mods", "config")
-$CONTENTS_TO_ZIP = @("mods", "config")
+$CONTENTS_TO_ZIP = @("mods", 
+"config", "resources", 
+"libraries", 
+"forge-1.12.2-14.23.5.2847-universal.jar", 
+"minecraft_server.1.12.2.jar", 
+"Start.bat", 
+"eula.txt")
 
 # Can be "markdown", "text" or "html"
 # Default: $CLIENT_CHANGELOG_TYPE
@@ -85,7 +89,7 @@ $ENABLE_MODPACK_UPLOADER_MODULE = $true
 
 # Toggle server file feature on/off
 # Default: $true
-$ENABLE_SERVER_FILE_MODULE = $false
+$ENABLE_SERVER_FILE_MODULE = $true
 
 # Toggle automatic changelog generator on/off
 # This module requires an older modpack manifest zip to be present, 
