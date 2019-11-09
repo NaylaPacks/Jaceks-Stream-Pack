@@ -1,0 +1,36 @@
+# Pyramid Challenge Reborn
+
+# Instance Sync
+mods/*.jar
+!InstanceSync*.jar
+mods/*.jar.disabled
+mods/*.jar.meta
+
+# Modpack Uploader
+settings.ps1
+
+
+# Changelog Builder
+ChangelogGenerator.jar
+
+# Modpack Ignores
+**/*.log
+/.mixin.out
+/backups
+/craftpresence
+/crash-reports
+/downloads
+/logs
+/patchouli_books
+/reports
+/resourcepacks
+/saves
+/snapshots-server
+/TombManyGraves
+.curseclient
+options.txt
+.ReAuth.cfg
+chooser_0.png
+config.json
+
+# Misc

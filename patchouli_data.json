@@ -1,0 +1,28 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "bewitchment:book_of_shadows": {
+      "viewedEntries": [],
+      "bookmarks": [],
+      "history": [],
+      "completedManualQuests": []
+    },
+    "bewitchment:codex_infernalis": {
+      "viewedEntries": [],
+      "bookmarks": [],
+      "history": [],
+      "completedManualQuests": []
+    },
+    "twilightforest:guide": {
+      "viewedEntries": [
+        "twilightforest:world/portal"
+      ],
+      "bookmarks": [],
+      "history": [
+        "twilightforest:world/portal"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}
